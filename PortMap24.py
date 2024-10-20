@@ -3,12 +3,15 @@ from pybricks.pupdevices import Motor, ColorSensor, UltrasonicSensor
 from pybricks.parameters import Button, Color, Direction, Port, Side, Stop
 from pybricks.robotics import DriveBase
 from pybricks.tools import *
-
+from pybricks.hubs import *
+hub = PrimeHub()
+print(hub.battery.voltage())
 motorLeft = Motor(Port.E, Direction.COUNTERCLOCKWISE)
 motorRight = Motor(Port.F, Direction.CLOCKWISE)
 motorFront = Motor(Port.C)
 motorBack = Motor(Port.A)
-#colorSensorLeft = ColorSensor(Port.B)
-#colorSensorRight = ColorSensor(Port.D)
+colorSensorLeft = ColorSensor(Port.B)
+colorSensorRight = ColorSensor(Port.D)
 driveBase = DriveBase(motorLeft,motorRight,56,114)
 driveBase.use_gyro(True)
+  
