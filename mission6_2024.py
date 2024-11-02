@@ -1,0 +1,12 @@
+from PortMap24 import *
+driveBase.straight(150)
+driveBase.settings(turn_rate=45)
+driveBase.turn(-75)
+driveBase.straight(600)
+driveBase.turn(65)
+driveBase.straight(230)
+driveBase.straight(-215)
+driveBase.turn(-30)
+driveBase.straight(280)
+driveBase.turn(-10)
+driveBase.straight(150)
