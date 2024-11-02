@@ -1,5 +1,6 @@
 from PortMap24 import *
 #4,1 from the frams
+#11/2/24
 print(driveBase.settings())
 motorFront.run_until_stalled(-1000,Stop.COAST,30)
 driveBase.settings(150,300,150,300)
