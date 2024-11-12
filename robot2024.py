@@ -1,6 +1,6 @@
 from PortMap24 import *
 
-mission = hub_menu(1,2,3,4,5)
+mission = hub_menu(1,2,3,4,5,6)
 print(mission)
 
 if mission == 1:
@@ -15,3 +15,5 @@ if mission == 4:
     import rightmap
 if mission == 5:
     import whaleandkrill
+if mission == 6:
+    import Squide_2024
