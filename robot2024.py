@@ -16,4 +16,4 @@ if mission == 4:
 if mission == 5:
     import whaleandkrill
 if mission == 6:
-    import Squide_2024
+    import Squide2_2024
