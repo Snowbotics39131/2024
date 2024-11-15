@@ -23,12 +23,11 @@ driveBase.use_gyro(False)
 motorFront.run_angle(1000,-90) #test
 driveBase.straight(50)
 wait(2) 
-motorFront.run_angle(1000,90) #test
 driveBase.use_gyro(True)
 driveBase.straight(-25)
 wait(2)
 driveBase.turn(-45)
-motorFront.run_angle(1000,-90) #testdriveBase.straight(-100)
+driveBase.straight(-100)
 driveBase.turn(-45)
 driveBase.straight(150)
 motorFront.run_angle(1000,175)
