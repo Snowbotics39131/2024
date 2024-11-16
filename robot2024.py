@@ -13,7 +13,9 @@ if mission == 3:
    # import 
 if mission == 4:
     import rightmap
+#if mission == 5:
+   # import whaleandkrill
 if mission == 5:
-    import whaleandkrill
+    import squid3
 if mission == 6:
-    import Squide2_2024
+    import whaleandkrill
