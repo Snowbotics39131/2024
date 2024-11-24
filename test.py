@@ -1,23 +1,36 @@
-from pybricks.hubs import PrimeHub
-from pybricks.pupdevices import Motor, ColorSensor, UltrasonicSensor, ForceSensor
-from pybricks.parameters import Button, Color, Direction, Port, Side, Stop
-from pybricks.robotics import DriveBase
-from pybricks.tools import wait, StopWatch
- 
-from PortMap import*
+from PortMap24 import *
+#motorFront.run_angle(1000, 100)
 
-driveBase.straight(1000
-driveBase.straight(-200)
-driveBase.turn(-90)
-driveBase.straight(-200)
-driveBase.turn(-50)
-driveBase.straight(500)
-driveBase.straight(-200)
-driveBase.turn(45)
-driveBase.straight(1000)
-driveBase.turn(-35)
+driveBase.turn(-30)
+driveBase.straight(290)
+driveBase.turn(85)
+driveBase.straight(180)
+motorFront.run_angle(1000, -290)
 driveBase.straight(-100)
-drivebase.turn(30)
-driveBase.straight(-4000)
-
-
+motorFront.run_angle(1000, 130)
+driveBase.turn(-55)
+driveBase.straight(-350)
+driveBase.use_gyro(False)
+driveBase.straight(-200)
+driveBase.use_gyro(True)
+#driveBase.turn(35)
+#motorFront.run_angle(1000, -180)
+driveBase.straight(400)
+driveBase.turn(-10)
+driveBase.straight(40)
+driveBase.turn(10)
+driveBase.straight(300)
+driveBase.use_gyro(False)
+driveBase.straight(200)
+driveBase.use_gyro(True)
+driveBase.straight(-200)
+#motorFront.run_angle(1000, 160)
+#driveBase.straight(-300)
+#driveBase.straight(-180)
+driveBase.turn(55)
+driveBase.straight(150)
+driveBase.straight(-150)
+driveBase.turn(-55)
+driveBase.straight(-300)
+driveBase.turn(-55)
+driveBase.straight(-400)
