@@ -1,6 +1,6 @@
 from PortMap24 import *
-#motorFront.run_angle(1000, 100)
-
+motorFront.run_until_stalled(-1000,Stop.COAST,30)
+motorFront.run_angle(1000, 100)
 driveBase.turn(-30)
 driveBase.straight(290)
 driveBase.turn(85)
