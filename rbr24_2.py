@@ -11,15 +11,15 @@ if mission == 3:
     import mission2_2024
 #if mission == 4:
    # import 
-if mission == 4:
-    import rightmap
-#if mission == 5:
-   # import whaleandkrill
-if mission == 5:
-    import squid3
+#if mission == 4:
+  #  import rightmap
 if mission == 6:
-    import whaleandkrill
-if mission == 7:
+    import Test
+#if mission == 5:
+    #import squid3
+#if mission == 6:
+    #import whaleandkrill
+if mission == 4:
     import tree_2024
-if mission == 8:
+if mission == 5:
     import Tree_part2_2024
