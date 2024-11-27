@@ -16,7 +16,7 @@ if mission == 9:
 if mission == 4:
     import joels_code
 if mission == 6:
-    import squid3
+    import Squide2_2024
 if mission == 10:
     import whaleandkrill
 if mission == 2:
