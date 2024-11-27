@@ -1,6 +1,6 @@
 from PortMap24 import *
 
-mission = hub_menu(1,2,3,4,5,6,7,8)
+mission = hub_menu(1,2,3,4,5,6,7,8,9)
 print(mission)
 
 if mission == 1:
@@ -9,8 +9,8 @@ if mission == 2:
     import mission3_2024
 if mission == 3:
     import mission2_2024
-#if mission == 4:
-   # import 
+if mission == 9:
+    import Test2
 if mission == 4:
     import rightmap
 #if mission == 5:
