@@ -1,4 +1,5 @@
 from PortMap24 import *
+#2ND THICK BLACK LINE FROM INSIDE 1 UP
 print(driveBase.settings())
 motorFront.run_until_stalled(1000,Stop.COAST,30)
 driveBase.settings(150,300,150,300)
