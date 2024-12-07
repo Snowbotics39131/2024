@@ -24,8 +24,8 @@ def runProgram(mission):
         import Test2
     elif mission=='6':
         import Squide2_2024
-    #elif mission == '7':
-        #import mission2_2024
+    elif mission == '7':
+        import sharkcawseeeeat
     #elif mission == '8':
         #import mission3_2024
     #elif mission == '7':
